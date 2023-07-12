@@ -1,0 +1,237 @@
+/* shared style */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+}
+
+.btn {
+    padding: 20px 45px;
+    background-color: #E55473;
+    border-radius: 8px;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+}
+
+.section-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.section-description {
+    margin: 24px auto 20px;
+
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    max-width: 600px;
+}
+
+
+/* header section */
+
+
+.banner {
+    display: flex;
+    gap: 120px;
+    justify-content: space-around;
+    align-items: center;
+    height: 90vh;
+    max-height: 850px;
+    padding: 50px 200px 0 200px;
+    background: rgba(229, 84, 115, 0.10);
+}
+
+.banner-title {
+    font-size: 80px;
+    color: #272727;
+
+
+}
+
+.banner-descrioption {
+    font-size: 18px;
+    width: 630px;
+    color: rgba(39, 39, 39, 0.60);
+    font-size: 18px;
+    line-height: 30px;
+    margin: 32px 0
+}
+
+.banner-image img {
+    width: 650px;
+}
+
+
+
+/* featured section */
+
+.featured {
+    height: 100vh;
+    margin: 120px 240px 0;
+}
+
+
+.flower-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.flower-title-img-container h1 {
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-top: 30px;
+}
+
+.flower {
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    width: 464px;
+    height: 538px;
+    border-radius: 300px 300px 0px 0px;
+
+
+
+}
+
+
+.flower1 {
+    background: rgba(167, 33, 98, 0.15);
+}
+
+.flower2 {
+
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower3 {
+    background: rgba(71, 125, 17, 0.15);
+}
+
+
+/* service section  */
+
+.service-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    height: 330px;
+    text-align: center;
+    margin: 0 240px;
+}
+
+.service-title {
+    color: rgba(39, 39, 39, 0.80);
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 35px;
+}
+
+/* Offer section */
+
+.offer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 170px;
+    height: 620px;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    margin: 120px 0;
+    text-align: center;
+}
+
+.offer-title {
+    color: #272727;
+    font-size: 40px;
+    font-weight: 800;
+}
+
+.offer-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    line-height: 30px;
+    margin: 24px;
+}
+
+.flower-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+/* subcribe section */
+
+.subscribe {
+    margin: 120px 240px;
+    height: 500px;
+    background-image: url('../Flower Asset/Rectangle 9.png');
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: red; */
+
+}
+
+.subscribe input {
+    /* display: block; */
+    width: 700px;
+    /* height: 60px; */
+    padding: 22px;
+    font-size: 20px;
+}
+
+/* Footer section */
+
+footer{
+    background: #111010;
+    height: 450px;
+    color: #FFF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+footer .section-title{
+    color: white;
+}
+
+footer span {
+    color: #E55473;
+
+}
+
+footer .section-description {
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 18px;
+    line-height: 30px;
+}
+
+footer small{
+    color: rgba(255, 255, 255, 0.40);;
+}
